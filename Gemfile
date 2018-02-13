@@ -16,6 +16,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
+gem 'brakeman'
+gem 'bundler-audit'
+gem 'rack-mini-profiler'
+gem 'better_errors'
+gem 'binding_of_caller'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
